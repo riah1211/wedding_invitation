@@ -28,7 +28,7 @@ var myInterval = setInterval(function(){
     }
 }, 200);
 function playPause() {
-    document.getElementsByClassName("bii-player")[0].classList.remove("show-sec");
+    document.getElementsByClassName("bii-player")[0].classList.remove("show-sec"); 
     if (audioPlayer.paused) {
         audioPlayer.play();
         document.getElementById("playerVolumeOff").style.display = "none";
